@@ -9,6 +9,8 @@ resource aws_vpc "hashicat" {
 
   tags = {
     Name = "${var.prefix}-vpc"
+    Department = "finance"
+    Billable = "yes"
   }
 }
 
@@ -18,6 +20,8 @@ resource aws_subnet "hashicat" {
 
   tags = {
     name = "${var.prefix}-subnet"
+    Department = "finance"
+    Billable = "yes"
   }
 }
 
