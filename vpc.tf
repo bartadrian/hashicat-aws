@@ -13,7 +13,5 @@ module "vpc" {
 
   tags = {
     Terraform = "true"
-    Department = "finance"
-    Billable = "yes"
   }
 }
